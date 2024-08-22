@@ -1,0 +1,59 @@
+.mainparent{
+    height: 900px;
+    width: 100%;
+}
+.navbarr{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    position:sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: white;
+    
+    }
+.nurpurlogo{
+    height: 80%;
+    width: 30%;
+    padding-left: 150px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    
+}
+.dfrntitem{
+    height: 100%;
+    width: 50%;
+    margin-right: 130px;
+    margin-top: 30px;
+    
+}
+.img3dot{
+    height: 100%;
+    width: 20%;
+}
+.video{
+    height: 70px;
+    width: 70%;
+    margin-top: 0;}
+
+.bgimg{
+height: 200px;
+width: 100%;
+margin-left: 490px;
+}
+.contentpic{
+    height: 500px;
+    width: 800px;
+    display: flex;
+}
+.content{
+    height: 30px;
+    width:700px;
+    padding-left: 80px;
+}
+.pic{
+    height:600px;
+    width:400px ;
+    padding-left: 250px;
+}
