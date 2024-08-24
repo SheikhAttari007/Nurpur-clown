@@ -1,7 +1,18 @@
+
 .mainparent{
-    height: 900px;
+    height: 2500px;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
+@media only screen and (max-width:455px
+){
+    .mainparent{
+        font-size: 1vw;
+        background-color: brown;
+    }
+}
+
 .navbarr{
     height: 100px;
     width: 100%;
@@ -34,18 +45,22 @@
 }
 .video{
     height: 70px;
-    width: 70%;
-    margin-top: 0;}
+    width: 100%;
+    margin-top: 0;
+    object-fit: cover;
+}
 
 .bgimg{
 height: 200px;
 width: 100%;
 margin-left: 490px;
+margin-top:750px;
 }
 .contentpic{
-    height: 500px;
+    height: 400px;
     width: 800px;
     display: flex;
+    margin-top: 90px;
 }
 .content{
     height: 30px;
@@ -56,4 +71,113 @@ margin-left: 490px;
     height:600px;
     width:400px ;
     padding-left: 250px;
+}
+.imggrass{
+    height: 400px;
+    width: 100%;
+    padding-bottom: 190px;
+}
+body{
+    overflow-x: hidden;
+}
+.secondlogo{
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    
+}
+.logo2nd{
+    height: 60%;
+    width: 20%;
+    padding-bottom:80px ;
+}
+.pic3{
+    height: 450px;
+    width: 80%;
+}
+.pic4{
+    height: 450px;
+    width: 80%;
+}
+.slider{
+    height: 50%;
+    width: 80%;
+    padding-top: 1000px;
+    padding-left: 250px;
+}
+.text{
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.pic6{
+    height: 500px;
+    width: 1700px;
+    padding-right:750px ;
+}
+.finalcontainar{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    margin-left: 10;
+}
+.lftcntnr{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    
+}
+.footer{
+    height: 200px;
+    width: 100px;
+    justify-content: left;
+    padding-right: 20px;
+    margin-top: 90px;
+    margin-right: 160px;
+    background-color: blueviolet;
+}
+
+.twoimg{
+    height: 100px;
+    width: 150px;
+    padding-top: 100px;
+}
+.uperlist{
+    height: 40%;
+    width: 100%;
+    padding-top: 100px;
+    padding-right: 50px;
+    
+}
+.lowercontnr{
+    height: 400px;
+    width: 600px;
+    display: flex;
+    
+}
+.iconbox{
+    height: 100%;
+    width: 40%;
+    margin-top: 0   ;
+    margin-left: 50px;
+    
+}
+.logobox{
+    height: 100%;
+    width: 40%;
+    
+}
+.whtslgo{
+    height: 40px;
+    width: 40px;
+    margin-top: 50px;
+    margin-left: 80px;
+    border: radius 50px;
+}
+.fourlogo{
+    height: 60px;
+    width: 500px;
+    display: flex;
+    margin: 50px;
+    margin-left: 20px;
 }
